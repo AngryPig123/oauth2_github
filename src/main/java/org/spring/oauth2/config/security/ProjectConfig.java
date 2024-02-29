@@ -13,12 +13,6 @@ import org.springframework.security.oauth2.client.registration.InMemoryClientReg
 @Configuration
 public class ProjectConfig extends WebSecurityConfigurerAdapter {
 
-//    oauth2:
-    //    github:
-    //    id: 74ec01050e2b8ca19a57
-    //    secret: 164827a52ffbc4b438431cf2b01413957b974234
-
-
     @Value("${oauth2.github.id}")
     private String id;
 
